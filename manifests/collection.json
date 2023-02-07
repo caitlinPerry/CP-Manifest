@@ -1,0 +1,13 @@
+{
+  "id" : "https://caitlinPerry.github.io/CP-Manifest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in caitlinPerry/CP-Manifest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://caitlinPerry.github.io/CP-Manifest/manifests/manifest2.json",
+    "label" : "Caitlin's manifest"
+  } ]
+}
