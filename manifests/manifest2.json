@@ -1,0 +1,96 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://caitlinPerry.github.io/CP-Manifest/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Caitlin's manifest",
+  "metadata" : [ {
+    "label" : "Photographer",
+    "value" : "Caitlin Perry"
+  }, {
+    "label" : "Published",
+    "value" : [ {
+      "@value" : "New York and Colorado, 2022",
+      "@language" : "en"
+    } ]
+  } ],
+  "description" : [ {
+    "@value" : "Photos from summer",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "attribution" : "Copyright Caitlin Perry",
+  "sequences" : [ {
+    "@id" : "http://b3f3a18a-ec6e-442d-8a94-f54b1c0e2022",
+    "@type" : "sc:Sequence",
+    "viewingHint" : "individuals",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://cfe35fc4-0d09-47df-9e64-5d2ca025fe67",
+      "@type" : "sc:Canvas",
+      "label" : "Max and Theo in the Broadmoor pool",
+      "height" : 3024,
+      "width" : 4032,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://d95f95b3-0b73-4214-86ad-fd092781aead",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-2434_202302/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-2434_202302",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3024,
+          "width" : 4032
+        },
+        "on" : "http://cfe35fc4-0d09-47df-9e64-5d2ca025fe67"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://cecae312-7585-4cba-b3a7-b1f773eb6b6c",
+      "@type" : "sc:Canvas",
+      "label" : "Ollie on the steps",
+      "height" : 640,
+      "width" : 481,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://2ba517cf-2271-47e0-a69a-7ded6b21b90f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/img-3565_202302/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/img-3565_202302",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 640,
+          "width" : 481
+        },
+        "on" : "http://cecae312-7585-4cba-b3a7-b1f773eb6b6c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://428c0550-8144-4d38-869d-d6d99790b9b5/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://428c0550-8144-4d38-869d-d6d99790b9b5/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://428c0550-8144-4d38-869d-d6d99790b9b5" ]
+  } ]
+}
