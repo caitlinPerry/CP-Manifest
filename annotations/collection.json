@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://caitlinPerry.github.io/CP-Manifest/annotations/52ec924e9bea8e5b053a8c4ec2ffb6f8.json" ],
+  "@id" : "https://caitlinPerry.github.io/CP-Manifest/annotations/collection.json",
+  "label" : "All annotations loaded in caitlinPerry/CP-Manifest project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
