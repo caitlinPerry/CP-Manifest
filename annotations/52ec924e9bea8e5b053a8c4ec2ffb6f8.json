@@ -1,0 +1,105 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Always smiling",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Always smiling</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/117775546",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-02-08T19:07:49",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1675883269618",
+    "dcterms:modified" : "2023-02-08T19:07:49",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://caitlinPerry.github.io/CP-Manifest/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1540,1565,484,329"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1540.41555,1565.11543h241.87485v0h241.87485v164.30498v164.30498h-241.87485h-241.87485v-164.30498z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_6457c1d6-076d-408b-a546-9c3e8736eb11\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://cfe35fc4-0d09-47df-9e64-5d2ca025fe67"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Very goofy cowlick",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Very goofy cowlick</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/117775546",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-02-08T19:07:37",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1675883257178",
+    "dcterms:modified" : "2023-02-08T19:07:37",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://caitlinPerry.github.io/CP-Manifest/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2537,863,231,210"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2536.57594,862.90401h115.31349v0h115.31349v105.10693v105.10693h-115.31349h-115.31349v-105.10693z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_e3f1cca8-51ed-4537-b125-00aae51a787e\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://cfe35fc4-0d09-47df-9e64-5d2ca025fe67"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Always skeptical",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Always skeptical</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/117775546",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-02-08T19:08:07",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1675883287771",
+    "dcterms:modified" : "2023-02-08T19:08:07",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://caitlinPerry.github.io/CP-Manifest/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2267,1573,635,210"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2267.12272,1573.28068h317.4034v0h317.4034v105.10693v105.10693h-317.4034h-317.4034v-105.10693z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_166c4c66-1907-465f-afb1-6f1c55375903\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://cfe35fc4-0d09-47df-9e64-5d2ca025fe67"
+    } ]
+  } ],
+  "@id" : "https://caitlinPerry.github.io/CP-Manifest/annotations/52ec924e9bea8e5b053a8c4ec2ffb6f8.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
