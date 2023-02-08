@@ -3,6 +3,11 @@
   "@id" : "https://caitlinPerry.github.io/CP-Manifest/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Caitlin's manifest",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/117775546/15083181d31e419d1607c06cc2692143/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Photographer",
     "value" : "Caitlin Perry"
@@ -51,6 +56,11 @@
           "width" : 4032
         },
         "on" : "http://cfe35fc4-0d09-47df-9e64-5d2ca025fe67"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://caitlinperry.github.io/CP-Manifest/annotations/52ec924e9bea8e5b053a8c4ec2ffb6f8.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
       } ],
       "related" : ""
     }, {
